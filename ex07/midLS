@@ -1,0 +1,1 @@
+ls -pc | xargs -I {} echo -n {}"," | sed "s/,$/\n/"
